@@ -18,13 +18,13 @@
     public static double Average(int[] tab)
     {
         int sum = 0;
-        int counter = tab.Length;
+        int licznik = tab.Length;
         foreach (int num in tab)
         {
             sum += num;
         }
 
-        return sum / (double)counter;
+        return sum / (double)licznik;
     }
     public static void Main(string[] args)
     {
