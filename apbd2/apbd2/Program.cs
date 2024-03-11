@@ -14,6 +14,18 @@
 
         return el;
     }
+
+    public static double Average(int[] tab)
+    {
+        int sum = 0;
+        int counter = tab.Length;
+        foreach (int num in tab)
+        {
+            sum += num;
+        }
+
+        return sum / (double)counter;
+    }
     public static void Main(string[] args)
     {
         Console.WriteLine("Hello, World!");
@@ -34,5 +46,6 @@
         Console.WriteLine(sum);
         int MaxNum = Max(tbl);
         Console.WriteLine(MaxNum);
+        Console.WriteLine(Average(tbl));
     }
 }
