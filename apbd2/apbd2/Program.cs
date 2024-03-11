@@ -17,14 +17,14 @@
 
     public static double Average(int[] tab)
     {
-        int sum = 0;
+        int suma = 0;
         int counter = tab.Length;
         foreach (int num in tab)
         {
-            sum += num;
+            suma += num;
         }
 
-        return sum / (double)counter;
+        return suma / (double)counter;
     }
     public static void Main(string[] args)
     {
