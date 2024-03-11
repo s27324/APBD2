@@ -10,5 +10,13 @@
         {
             Console.WriteLine(num);
         }
+
+        int sum = 0;
+        
+        foreach (int num in tbl)
+        {
+            sum += num;
+        }
+        Console.WriteLine(sum);
     }
 }
