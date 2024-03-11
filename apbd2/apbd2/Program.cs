@@ -43,7 +43,6 @@
         {
             sum += num;
         }
-        Console.WriteLine(sum);
         int MaxNum = Max(tbl);
         Console.WriteLine(MaxNum);
         Console.WriteLine(Average(tbl));
