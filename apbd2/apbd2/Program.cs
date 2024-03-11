@@ -1,5 +1,19 @@
 ﻿class Program
 {
+    public static int Max(int[] tab)
+    {
+        int el = 0;
+        
+        foreach (int num in tab)
+        {
+            if (num > el)
+            {
+                el = num;
+            }
+        }
+
+        return el;
+    }
     public static void Main(string[] args)
     {
         Console.WriteLine("Hello, World!");
@@ -18,5 +32,7 @@
             sum += num;
         }
         Console.WriteLine(sum);
+        int MaxNum = Max(tbl);
+        Console.WriteLine(MaxNum);
     }
 }
